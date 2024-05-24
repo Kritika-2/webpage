@@ -1,0 +1,282 @@
+*{
+    margin:3px;
+    padding:0px;
+}
+body{
+    background-color:black;
+    overflow: hidden;
+}
+img{
+    height:1000px;
+    width:900px;
+    text-align:center;
+    justify-content:center;
+    float:right;
+   right:0;
+   /* margin-right:100px;optional otherwise 0  */
+    position:absolute;
+    margin-top:70px;
+  
+}
+
+.home{
+    color:red;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    display:flex;
+    
+
+  }
+
+  #logo{
+    font-size:2rem;
+    color:white;
+  }
+  ul a{
+    margin:10px;
+    text-decoration:none;
+    font-size:2rem;
+    color:white;
+  }
+  
+
+  ul a:hover{
+    text-decoration-color:white;
+    text-decoration:underline;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    display: flex;
+    animation-name: fadeInFromTop;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 0.7;
+        transform: translateY(0);
+    }
+}
+
+#logo {
+    font-size: 2rem;
+    color: white;
+}
+
+ul a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #rnav{
+    float:right;
+    margin-left:73rem;
+    font-size:2rem;
+    color:white;
+  
+  }
+  .signup{
+    margin-right:10px;
+    font-size:2rem;
+    height:50px;
+    margin:4px;
+    padding:8px;
+    text-decoration:none;
+    border-radius:25%;
+    border-color:white;
+    background-color:black;
+    color:white;
+
+  }
+
+  .signup:hover{
+    background-color:red;
+    transform: scale(1);
+
+  }
+  
+
+  p,h2,h1,h4{
+ 
+    width:900px;
+    margin-left:100px;
+    color:white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size:1.5rem;
+   
+  }
+  h2{
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-style: italic;
+    font-size:5rem;
+    font-weight: 800;
+  }
+
+  h1{
+    font-size:3rem;
+  }
+
+  .text{
+    margin-top:150px;
+  }
+
+
+  h2, h1, h4 {
+    animation-name: slideInFromLeft;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#play{
+    margin-left:100px;
+    margin-top:1rem;
+    color:white;
+    font-size:2rem;
+}
+
+#socialmed{
+    margin-left:100px;
+    margin-top:1.4rem;
+    color:white;
+    opacity:0.7;
+
+}
+
+
+#socialmed i {
+  margin-right: 16px;
+  font-size: 2rem;
+  transition: all 0.3s ease; /* Adding transition for smooth effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow effect */
+}
+
+#socialmed i:hover {
+  transform: scale(1.2); /* Scale up the icon on hover */
+  color: red; /* Change color on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
+i{
+    margin-right:16px;
+    font-size: 2rem;
+}
+
+div i:hover{
+    background-color: rgb(229, 28, 38);
+    transition: background-color 0.5s;
+    border-radius:50%;
+    opacity:1;
+    transform: scale(1);
+ 
+}
+.fot{
+    width:40%;
+    background-color:red;
+    opacity:0.7;
+    height:200px;
+    margin-top:7rem;
+    margin-left:0px;
+    transform:translateX(-2px);
+    
+    
+  
+    
+
+}
+
+
+
+#foot{
+   margin-right:3rem;
+    font-size:5rem;
+    margin-top:3rem;
+
+}
+
+h6{
+    font-size:1rem;
+    letter-spacing:4px;
+}
+
+
+
